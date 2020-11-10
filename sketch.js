@@ -18,19 +18,19 @@ function setup() {
 function draw() {
 
   inp.style('display','inline-block')
-if(keyDown(ENTER)){
-  inp.value('sent!!!')
+// if(keyDown(ENTER)){
+//   inp.value('sent!!!')
+
+// }
+
+}
+function myInputEvent() {
+  console.log('you are typing: ', this.value());
+}
+function keyPressed(){
+if(keyCode===13){
+inp.value('sent!!!')
 
 }
 
 }
-// function myInputEvent() {
-//   console.log('you are typing: ', this.value());
-// }
-// function keyPressed(){
-// if(keyCode===13){
-// inp.value('sent!!!')
-
-// }
-
-// }
