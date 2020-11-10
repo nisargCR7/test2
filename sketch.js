@@ -18,10 +18,7 @@ function setup() {
 function draw() {
 
   inp.style('display','inline-block')
-if(keyDown(ENTER)){
-  inp.value('sent!!!')
 
-}
 
 }
 function myInputEvent() {
