@@ -24,9 +24,9 @@ if(keyDown(ENTER)){
 }
 
 }
-// function myInputEvent() {
-//   console.log('you are typing: ', this.value());
-// }
+function myInputEvent() {
+  console.log('you are typing: ', this.value());
+}
 // function keyPressed(){
 // if(keyCode===13){
 // inp.value('sent!!!')
